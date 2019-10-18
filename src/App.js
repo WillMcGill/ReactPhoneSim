@@ -11,7 +11,9 @@ class App extends React.Component {
     render(){
         return(
             <div>
+                <h1>Clock</h1>
             <Clock />
+            <h1>Timer in Milliseconds</h1>
             <Timer />
             </div>
         )
